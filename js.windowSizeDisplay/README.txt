@@ -17,6 +17,6 @@ You can plug this js into your site, create an element with the ID "*IDName*" (t
 
 - For a real-time effect without having to call the script constantly with the button, and, as the window is resized; add the function to an onresize attribute on the<body> tag of your page.
 
-^ ---> Example: <body onresize="functionName()">
+^ ---> Example: <body onresize="*functionName()*">
 
 - Display changes to red once browser width is or greater than 1024px wide, otherwise, it will be blue if less than 1024px wide.
