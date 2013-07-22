@@ -1,6 +1,6 @@
 function roundD() {
         var x = 0.1 + 0.2;
-        var x = x.toFixed(2); // This .toFixed(#) narrows the result down to a hundreths placed decimal. Naturally if you cahnge it to 3 it would be thousanths, 1 is tenths etc.
+        var x = x.toFixed(2); // This .toFixed(#) narrows the result down to a hundredths placed decimal. Naturally if you change it to 3 it would be thousandths, 1 is tenths etc.
         var to = document.getElementById("fixer");
         var z = to.innerHTML = x;
 //      var z = to.innerHTML = "$" + x;  // Replace the line above with this one for a $ in front. :)
