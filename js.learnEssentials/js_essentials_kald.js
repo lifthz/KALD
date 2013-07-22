@@ -8,7 +8,7 @@
         for now until we want to use it later */
         var detect = "";
 
-        /* We declare y equal to 0 here just because we want to, we will use 
+        /* We declare y equal to 0 here just because we want to, we will use
         This is not necessary, but, it is best practice.
         We will be using y as the starting point for a loop later. */
         var y = 0;
@@ -26,16 +26,16 @@
 
         Remember we set y=0 earlier? We didn't really need to as
         that is the default. As mentioned before, however, it is best practice.
-        Let's us organize before we start calculating things.
+        This helps us organize before we start calculating things.
         Unlike us, CPUs are usually trained to count from 0 as a valid value.
         They don't normally start with 1 as we do;
         we usually learn to count with our fingers.
 
-        So, we only need to go up to 9 from 0 in order to get 10 counts
-        since we are the variable y=0 here.
+        So, we only need to go up to 9 in this while loop from 0 in order to get 10 counts.
+        Remember we have set the variable y=0 here.
         IF we had set y=1 earlier, then we would be TELLING the CPU to
-        start count y from 1 in this calculation. We would then have to use the value of 10
-        as the comparitive number (y <= 10) in this while argument if we want to count 10 increments. */
+        start count from 1 in this calculation. We would then have to use the value of 10
+        as the comparitive number (y <= 10) in this while argument if we want to count to 10. */
         while (y <= 9) {
             z = x + " and " + (x + y) + " are the two numbers. X is " + x + "<br>";
             y++;
@@ -43,10 +43,10 @@
         }
 
         /* The .innerHTML adds the text from the variable z
-        that we've just declared above in that while loop -->
-        to the DOM #countTester which we set as to the variable a above*
-        NOTICE: We don't need "var ". It is best practice to use var, however. 
-        Not using var could potentially cause conflicts with the more complex functions.
+        that we've just declared above inside that while loop -->
+        to the DOM #countTester which we set as to the variable "a" above.
+        *NOTICE: We don't need "var ". It is best practice to use var, however.
+        Not using var could potentially cause conflicts in the more complex functions.
         However, we will take the chance with this :) */
         a.innerHTML = z;
 
