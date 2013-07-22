@@ -14,7 +14,7 @@ Example:
  renders something like this: .000000@!@@#)000000000001!2!
 
 
-The toFixed() method in Javasript returns the ouput as a string and allows you to define how many decimals the number is rendered with through the argument. For instance: toFixed(3) would render something like 0.030
+The toFixed() method in Javasript returns the ouput as a string in fixed point notation which allows you to define how many decimals the number is rendered with through the argument. For instance: toFixed(3) would render something like 0.030 from 0.029903030303003000200000200.
 
 
 
