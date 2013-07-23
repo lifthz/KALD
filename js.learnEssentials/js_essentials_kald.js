@@ -1,4 +1,3 @@
-
     function theNumbers() {
         // A prompt that will popup to ask user what number they want to start with.
         var x = prompt('What number would you like to use?');
@@ -75,10 +74,12 @@
         if (x >= 250) { var detect = Boolean(1) }
         else { var detect = Boolean(0) };
 
-        /* below we use the "==" in the if statement, this means equal to (as both a string and value) in JavaScript.
-        Since we set the Booleans in the ^above IF statement, we know if detect is true or not. If we only use a simple "=" here it will not work as desired.
+        /* below we use the "==" in the if statement, this means equal to in JavaScript.
+        Since we set the Booleans in the ^above IF statement, we know if detect is true or not.
+        If we only use a simple "=" here it will not work as desired.
         It is because we are using this as in argument in this case for the if statement here.
-        The syntax has to be different to distinguish the meaning, instead of JS assuming we are trying to set a new variable.
+        The syntax has to be different to distinguish the meaning, instead of JS assuming that
+        we are trying to set a new variable.
         We are not setting a new variable here, but, we are setting the argument(or, condition) for the IF statement.
         Lets just say Javascript is not smart as we can be.
         */
